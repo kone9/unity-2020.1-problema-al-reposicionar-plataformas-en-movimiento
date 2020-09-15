@@ -9,6 +9,6 @@ public class MoverSuelo : MonoBehaviour
     private void FixedUpdate()
     {
         transform.Translate(Time.deltaTime * -velocidadJuego, 0, 0);
-        
     }
 }
+
